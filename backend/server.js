@@ -1,12 +1,12 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3012;
 //const vm = require("v-response");
 //const morgan = require('morgan');
 const mongoose = require("mongoose")
 app.use(express.json());
 //app.use(morgan('dev'));
-const database = 'mongodb://localhost:27017/levemanagementdb';
+const database = 'mongodb://localhost:27017/Sakshi';
 
 mongoose.connect((database), {
     //useUnifiedTopology: true,
